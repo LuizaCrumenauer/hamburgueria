@@ -1,0 +1,163 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #e8a14f;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(232, 135, 79), rgba(219,73,57,1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(232, 161, 79), rgba(219,73,57,1))
+}
+
+body{
+    background-image: linear-gradient(#df8f33,rgba(219,73,57,1));
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 28px;
+    
+  
+}
+#sobre{
+    text-align: justify;
+    background-color: rgb(223, 211, 179);
+    border: solid 1px;
+}
+h1 , h2 , h3{
+    color: #e66d0a;
+}
+#home{
+    margin-top: 3%;
+    background-color: rgb(223, 211, 179);  
+    border: solid 1px;
+}
+
+.b-example2-divider {
+    height: 2rem;
+    background-color: rgba(180, 145, 69, 0.1);
+    border: solid rgba(5, 5, 5, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(1, 2, 2, .2), inset 0 .125em .5em rgba(0, 0, 0, .15); 
+     
+}
+
+.qualquer{
+
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 2px 0;
+    box-shadow: 3px 3px 20px 7px rgba(0, 0, 0, 0.3); 
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset  0px 3px 10px rgba(71, 7, 7, 0.35), inset 0 0.4px 4px rgba(245, 100, 42, 0.15); 
+     
+}
+
+.dropdown-menu{
+    background-color: #f0a754;
+}
+.dropdown-item:active:focus {
+    background-color: #e66d0a; /* Altere para a cor desejada */
+    color: white; /* Altere para a cor do texto desejada */
+}
+.dropdown-item:hover {
+    background-color: rgb(223, 211, 179);; /* Altere para a cor desejada */
+    color: black; /* Opcional: também muda a cor do texto */
+}
+
+#cardapio{
+
+    text-align: justify;
+    background-color: rgb(223, 211, 179);
+    border: solid 1px;
+    line-height: 26px;
+}
+
+.cardapio{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px 10px;
+    margin-bottom: 12px;
+}
+
+.pratos{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+    h1{
+        font-size: 23px;
+        margin-left: 20px;
+       margin-top: 10px;
+        padding-bottom: 2%;
+    }
+    p{
+        margin-left: 20px;
+    }
+    h2{
+        font-size: 20px;
+        margin-left: 20px;
+
+    }
+}
+
+#titulo_cardapio{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+@media all and (max-width: 1000px){
+    .cardapio{
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 10px 10px;
+    }
+    
+    .pratos{
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 2fr;
+    
+        h1{
+            font-size: 23px;
+            margin-top: 20px;
+           
+            padding-bottom: 2%;
+        }
+        p{
+            margin-left: 20px;
+        }
+        h2{
+            font-size: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px ;
+        }
+    }
+}
+
+#sobre{
+    h1{
+        margin-bottom: 2%;
+    }
+}
+
+#formulario{
+    background-color: rgb(223, 211, 179);
+    h2{
+        text-align: center;
+    }
+    box-shadow: 3px 3px 20px 7px rgba(253, 215, 2, 0.3);
+}
+
+#form{
+    padding-top: 100px;
+    
+}
+
+#botao{
+    background-color: #e66d0a;
+}
