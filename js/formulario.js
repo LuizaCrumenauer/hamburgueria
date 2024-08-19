@@ -1,5 +1,5 @@
 
-
+//testando git
 $('#form-pedidos').submit(function(event) {
     event.preventDefault();  // previne o comportamento padrão de envio do formulário
     var nome = $('#nome');
