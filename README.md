@@ -6,6 +6,10 @@ Bem-vindo ao repositório do **Burger Haven**, uma hamburgueria fictícia que of
 
 O objetivo deste projeto é criar um site intuitivo e visualmente atraente para a **Burger Haven**, destacando sua história, filosofia, cardápio, e compromisso com a sustentabilidade. Além disso, o site permite aos usuários fazer pedidos online de forma fácil e rápida.
 
+## Deploy do Projeto
+
+[Visite o site da Burger Haven](https://luizacrumenauer.github.io/hamburgueria/)
+
 ## Funcionalidades
 
 - **Página Inicial:** Introduz a história da Burger Haven e a filosofia da empresa.
